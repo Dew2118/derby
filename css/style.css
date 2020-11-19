@@ -9,3 +9,5 @@ body{background-color:#ccffff;
 	overflow:auto;
 	display:inline-block;
 	margin:30px}
+img.largepic{width:700px;}
+img.smallpic{width:500px}
