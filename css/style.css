@@ -8,6 +8,31 @@ p,ol,nav,footer{-webkit-font-size:20px;
 	-o-text-align:justify;
 	text-align:justify;}
 
+nav{-webkit-text-align: center;
+	-moz-text-align: center;
+	-o-text-align: center;
+	text-align: center;
+
+	-webkit-position:fixed;
+	-moz-position:fixed;
+	-o-position:fixed;
+	position:fixed;
+
+	-webkit-top:0;
+	-moz-top:0;
+	-o-top:0;
+	top:0;
+
+	-webkit-background-color:#ffffcc;
+	-moz-background-color:#ffffcc;
+	-o-background-color:#ffffcc;
+	background-color:#ffffcc;
+
+	-webkit-z-index: 1;
+	-moz-z-index: 1;
+	-o-z-index: 1;
+	z-index: 1;}
+
 div.PS{-webkit-font-size:20px;
 	-moz-font-size:20px;
 	-o-font-size:20px;
@@ -88,3 +113,4 @@ img:hover,img:focus{-webkit-width:1300px;
 	-moz-width:1300px;
 	-o-width:1300px;
 	width:1300px;}
+
