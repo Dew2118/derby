@@ -5,4 +5,7 @@ div.PS{font-size:20px;
 div{text-align:center;}
 body{background-color:#ccffff;
 	font-family:Futura,Geneva;
-	line-height:30px;}
+	line-height:30px;
+	overflow:auto;
+	display:inline-block;
+	margin:30px}
