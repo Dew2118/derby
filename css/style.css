@@ -23,15 +23,42 @@ nav{-webkit-text-align: center;
 	-o-top:0;
 	top:0;
 
-	-webkit-background-color:#ffffcc;
-	-moz-background-color:#ffffcc;
-	-o-background-color:#ffffcc;
-	background-color:#ffffcc;
+	-webkit-width: 100%;
+	-moz-width: 100%;
+	-o-width: 100%;
+	width: 100%;
+
+	-webkit-height: 50px;
+	-moz-height: 50px;
+	-o-height: 50px;
+	height: 50px;
+
+	-webkit-background-color:#444;
+	-moz-background-color:#444;
+	-o-background-color:#444;
+	background-color:#444;
 
 	-webkit-z-index: 1;
 	-moz-z-index: 1;
 	-o-z-index: 1;
-	z-index: 1;}
+	z-index: 1;
+	
+ }
+
+nav a{-webkit-border-right: 3px solid yellow;
+	-moz-border-right: 3px solid yellow;
+	-o-border-right: 3px solid yellow;
+	border-right: 3px solid yellow;
+
+	-webkit-color: #fff;
+	-moz-color: #fff;
+	-o-color: #fff;
+	color: #fff;}
+
+nav a:last-child{-webkit-border-right: none;
+	-moz-border-right: none;
+	-o-border-right: none;
+	border-right: none;}
 
 div.PS{-webkit-font-size:20px;
 	-moz-font-size:20px;
