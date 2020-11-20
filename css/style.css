@@ -24,14 +24,14 @@ nav{-webkit-text-align: center;
 	top:0;
 
 	-webkit-width: 100%;
-	-moz-width: 100%;
+	-moz-width: 100%
 	-o-width: 100%;
 	width: 100%;
 
-	-webkit-height: 50px;
-	-moz-height: 50px;
-	-o-height: 50px;
-	height: 50px;
+	-webkit-height: 5%;
+	-moz-height: 5%;
+	-o-height: 5%;
+	height: 5%;
 
 	-webkit-background-color:#444;
 	-moz-background-color:#444;
@@ -60,10 +60,10 @@ nav a:last-child{-webkit-border-right: none;
 	-o-border-right: none;
 	border-right: none;}
 
-div.PS{-webkit-font-size:20px;
-	-moz-font-size:20px;
-	-o-font-size:20px;
-	font-size:20px;
+div.PS{-webkit-font-size:40%;
+	-moz-font-size:40%;
+	-o-font-size:40%;
+	font-size:40%;
 
 	-webkit-text-align:center;
 	-moz-text-align:center;
@@ -85,10 +85,10 @@ body{-webkit-background: linear-gradient(#61cfc4 0%,#e1f5f3 100%);
 	-o-font-family:Futura,Geneva;
 	font-family:Futura,Geneva;
 
-	-webkit-line-height:30px;
-	-moz-line-height:30px;
-	-o-line-height:30px;
-	line-height:30px;
+	-webkit-line-height:150%;
+	-moz-line-height:150%;
+	-o-line-height:150%;
+	line-height:150%;
 
 	-webkit-overflow:auto;
 	-moz-overflow:auto;
@@ -100,20 +100,20 @@ body{-webkit-background: linear-gradient(#61cfc4 0%,#e1f5f3 100%);
 	-o-display:inline-block;
 	display:inline-block;
 
-	-webkit-margin:30px;
-	-moz-margin:30px;
-	-o-margin:30px;
-	margin:30px;
+	-webkit-margin:10%;
+	-moz-margin:10%;
+	-o-margin:10%;
+	margin:10%;
 	
 	-webkit-display:inline-block;
 	-moz-display:inline-block;
 	-o-display:inline-block;
 	display:inline-block;}
 
-img.largepic{-webkit-width:700px;
-	-moz-width:700px;
-	-o-width:700px;
-	width:700px;
+img.largepic{-webkit-width:40%;
+	-moz-width:40%;
+	-o-width:40%;
+	width:40%;
 	-webkit-transition-property: width;
 	-webkit-transition-duration: .5s;
 	-webkit-transition-timing-function: linear;
@@ -127,17 +127,23 @@ img.largepic{-webkit-width:700px;
 	transition-duration: .5s;
 	transition-timing-function: linear;}
 
-img.smallpic{-webkit-width:500px;
-	-moz-width:500px;
-	-o-width:500px;
-	width:500px;}
+img.smallpic{-webkit-width:30%;
+	-moz-width:30%;
+	-o-width:30%;
+	width:30%;}
 a:hover,a:focus{-webkit-color:#32a86f;
 	-moz-color:#32a86f;
 	-o-color:#32a86f;
 	color:#32a86f;}
 
+a:visited{-webkit-color:#8dc2c0;
+	-moz-color:#8dc2c0;
+	-o-color:#8dc2c0;
+	color:#8dc2c0;}
+
 img:hover,img:focus{-webkit-width:1300px;
-	-moz-width:1300px;
+	-moz-width:70%;
 	-o-width:1300px;
-	width:1300px;}
+	width:90%;}
+	
 
