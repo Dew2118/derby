@@ -1,160 +1,203 @@
+p,ol,nav,footer{-webkit-font-size:20px;
+	-moz-font-size:20px;
+	-o-font-size:20px;
+	font-size:20px;
+	
+	-webkit-text-align:justify;
+	-moz-text-align:justify;
+	-o-text-align:justify;
+	text-align:justify;}
 
-<!DOCTYPE html>
-<html lang="en">
-	<head>
+nav{-webkit-text-align: center;
+	-moz-text-align: center;
+	-o-text-align: center;
+	text-align: center;
 
-		<meta charset="UTF-8">
-		
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="./css/style.css">
-		<title>Simsig Derby sim tuorial</title>
-	</head id="top">
-	<body>
-		<header>
-			<nav class="show-mobile">
-				<a href="#top">Top</a>
-				<a href="#Kingsbury-Area">Kingsbury</a>
-				<a href="#Moira-West">Moira W</a>
-				<a href="#Clay-Mills">Clay Mills</a>
-				<a href="#North-Staffordshire-Junction-and-Stenson-Junction">NS and S Jn</a>
-				<a href="#Derby">Derby</a>
-				<a href="#The-North-Panel">The N Panel</a>
-				<a href="https://github.com/Dew2118/derby">Here's the code.</a>
-			</nav>
-			<nav class="hide-mobile">
-				<a href="#top">The top</a>
-				<a href="#Kingsbury-Area">Kingsbury Area</a>
-				<a href="#Moira-West">Moira West</a>
-				<a href="#Clay-Mills">Clay Mills</a>
-				<a href="#North-Staffordshire-Junction-and-Stenson-Junction">North Staffordshire Junction and Stenson Junction</a>
-				<a href="#Derby">Derby</a>
-				<a href="#The-North-Panel">The North Panel</a>
-				<a href="https://github.com/Dew2118/derby">Here's the code.</a>
-			</nav>
-			<div>
-				<h1>Simsig Derby simulation user guide for <span id = "output"></span></h1>
-				<h2>From user to user</h2>
-				<h2 id='a'></h2>
-				<img src="./Image/Derby-SimSig-11_15_2020-2_55_40-PM.png" alt="Derby station in simsig" class="largepic">
-			</div>
-		</header>
-		<script type="text/javascript" src="./js/function.js"></script>
-		<p>
+	-webkit-position:fixed;
+	-moz-position:fixed;
+	-o-position:fixed;
+	position:fixed;
 
-			Hello everyone, I'd like to show you how to play the Simsig Derby simulation. Derby is a pretty long panel but don't let that fool you. It is not as busy as you thought, especially when you play on the post 2006 era.
+	-webkit-top:0;
+	-moz-top:0;
+	-o-top:0;
+	top:0;
 
-		</p>
-		<div>
-			<h2 id="Kingsbury-Area">
-				<u>
-				Kingsbury Area
-			</u>
-		</h2>
-			<img src="./Image/Derby-SimSig-11_15_2020-3_09_45-PM.png" alt="Kingsbury area with no route between signal 81 and 83" class="largepic">
-		</div>
-		<p>
-			First of all, You need to place call for trains that is shedule to Kingsbury shunt frame and request slot for trains that go to Arewas <i class="fa fa-arrow-right"></i> Aston. Also in the early morning, there are lots of train coming out of Barton depot going both East and West. So I usually set my automatic route like the top picture because the route between signal 79-81-83 have long approach locking when you cancel the route. After 5G98 at 7:11, I set the route like this
-		</p>
-		<div>
-			<img src="./Image/Derby-SimSig-11_15_2020-3_10_01-PM.png" alt="Kingsbury area with automatic route between signal 81 and 83" class="largepic" >
-		</div><br>
-		<div class="PS">
-			PS: The Elford Goods Loop is very long.
-		</div>
-		<div>
-			<h2 id="Moira-West">
-				<u>
-					Moira West
-				</u>
-			</h2>
-			<img src="./Image/Derby-SimSig-11_15_2020-3_39_48-PM.png" alt="Moira West Area" class="largepic">
-		</div>
-		<p>
-			This is the only part of Moira West that is used in post 2006 era, you just route the train in and lower the CCTV crossing. If you signal it back toward Barton Hill, you need to request a slot though.
-		</p>
-			<div>
-				<h2 id="Clay-Mills">
-					<u>
-						Clay Mills
-					</u>
-				</h2>
-				<img src="./Image/Derby-SimSig-11_15_2020-5_27_48-PM.png" alt="Clay Mills Area" class="largepic" >
-			</div>
-		<p>
-			On this 4 tracks section, the goods line is 15 miles per hour. So if there's no pasenger train at the back, I recommend you to signal the goods train to the main line but if you need to signal a train from the Derby side, signal 184 would clear on approach. So you can practically lower the crossing when the train is at signal 186(A.K.A. the signal ahead of it).
-		</p><br>
-		<p>
-			 If a train is shedule into the Burton West Yard, I'd signal it to signal 181, tell it to reverse via F2 train list. Then just signal them into the yard.
-		</p><br>
-		<p>
-			  Lastly, the Clay Mills crossing is CCTV so I recommend you to add one of the Window sounds to the "Train approaching crossing" message. So the train won't just sit there on a red signal while the crossing is raised.
-		</p>
-		<div>
-			<h2 id="North-Staffordshire-Junction-and-Stenson-Junction">
-				<u>
-					North Staffordshire Junction and Stenson Junction
-				</u>
-			</h2>
-			<img src="./Image/Derby-SimSig-11_15_2020-7_30_31-PM.png" alt="N Staffordshire Jn and Stenson Jn" class="largepic">
-		</div>
-		<p>
-			On these braches, just make sure you constantly click on trains and signal them accordingly.
-		</p>
-		<div>
-			<h2 id="Derby">
-				<u>
-					Derby
-				</u>
-			</h2>
-			<img src="./Image/Derby-SimSig-11_15_2020-7_42_29-PM.png" alt="Derby that exclude Chad curve" class="largepic" >
-		</div>
-		<p>
-			The Derby track layout in kind of a pain because any train movement would block the entire station and prevent any other train movement. The Sunnyhill up and down loop is really long. <br>
-			The Etches Park C.S. have a bunch of empty coach stock trains coming out in the morning(until 7:24). After that, the train would come out once every hour. Some trains would require you to signal them to Chaddesden Curve, then into a platform.
-			<br>
-		</p>
-		<div>
-			<img src="./Image/Derby-SimSig-11_15_2020-8_13_52-PM.png" alt="Derby that include Chad Curve" class="largepic">
-		</div><br>
-		<p>
-			Some trains are shedule to Derby Way and Works siding <i class="fa fa-arrow-right"></i> Dery RTC. You have to place call before that train is at signal 379 because the shunter could request you to signal that train into:
-		</p>
-			<ol>
-				<li>
-					Pway, you have to signal the train into platform 1-3. Then signal it to Pway Siding
-				</li>
-				<li>
-					Research, you have to signal the train to the goods line. Then signal it to Research Siding
-				</li>
-			</ol>
-			<p>
-				If the train is shedule at Way and works siding from Etches Park C.S. Signal the train between signal 425 - 428 then signal them to Sheet Stores Junction.
+	-webkit-width: 100%;
+	-moz-width: 100%
+	-o-width: 100%;
+	width: 100%;
 
-			</p>
+	-webkit-height: 5%;
+	-moz-height: 5%;
+	-o-height: 5%;
+	height: 5%;
 
-		<div>
-			<h2 id="The-North-Panel">
-				<u>
-					The North Panel
-				</u>
-			</h2>
-			<img src="./Image/Derby-SimSig-11_15_2020-8_27_01-PM.png" alt="North Panel" class="largepic">
-		</div>	
-		<p>
-			The train from Clay Cross take longer than you would think to move up to Derby. These loops are very long. Some trains are sheduled to Matlock. That train would tell you to release the token, you release it and signal that train to Matlock. They would call you to request to leave, I don't know why you would say no. Then the train will pop up at Ambergate and you just signal them down toward Derby again.
-		</p>
-		<footer>
-			<form>
-				<label for="Feedback" >Feedback:</label>
-				<input type="text" id="d1" onkeyup="myFunction()" name="Feedback" placeholder="this website sucks.(Yes, I'm totally serious)"
-				 ><br>
-				<label for="Helpful">Is this page helpful?</label>
-				<input type="radio" id="HelpfulY" onclick="yes()" name="Helpful">
-				<label for="Helpful">Yes</label>
-				<input type="radio" id="HelpfulN" onclick ="no()" name="Helpful" >
-				<label for="Helpful">No</label>
-				<input type="submit" value="submit">
-			</form>
-		</footer>
-	</body>
-</html>
+	-webkit-background-color:#444;
+	-moz-background-color:#444;
+	-o-background-color:#444;
+	background-color:#444;
+
+	-webkit-z-index: 1;
+	-moz-z-index: 1;
+	-o-z-index: 1;
+	z-index: 1;
+	
+ }
+
+nav a{-webkit-border-right: 3px solid yellow;
+	-moz-border-right: 3px solid yellow;
+	-o-border-right: 3px solid yellow;
+	border-right: 3px solid yellow;
+
+	-webkit-color: #fff;
+	-moz-color: #fff;
+	-o-color: #fff;
+	color: #fff;}
+
+nav a:last-child{-webkit-border-right: none;
+	-moz-border-right: none;
+	-o-border-right: none;
+	border-right: none;}
+
+div.PS{-webkit-font-size:40%;
+	-moz-font-size:40%;
+	-o-font-size:40%;
+	font-size:40%;
+
+	-webkit-text-align:center;
+	-moz-text-align:center;
+	-o-text-align:center;
+	text-align:left;}
+
+div{-webkit-text-align:center;
+	-moz-text-align:center;
+	-o-text-align:center;
+	text-align:center;}
+
+body{-webkit-background: linear-gradient(#61cfc4 0%,#e1f5f3 100%);
+	-moz-background: linear-gradient(#61cfc4 0%,#e1f5f3 100%);
+	-o-background: linear-gradient(#61cfc4 0%,#e1f5f3 100%);
+	background: linear-gradient(#61cfc4 0%,#e1f5f3 100%);
+
+	-webkit-font-family:Futura,Geneva;
+	-moz-font-family:Futura,Geneva;
+	-o-font-family:Futura,Geneva;
+	font-family:Futura,Geneva;
+
+	-webkit-line-height:150%;
+	-moz-line-height:150%;
+	-o-line-height:150%;
+	line-height:150%;
+
+	-webkit-overflow:auto;
+	-moz-overflow:auto;
+	-o-overflow:auto;
+	overflow:auto;
+
+	-webkit-display:inline-block;
+	-moz-display:inline-block;
+	-o-display:inline-block;
+	display:inline-block;
+
+	-webkit-margin:10%;
+	-moz-margin:10%;
+	-o-margin:10%;
+	margin:10%;
+	
+	-webkit-display:inline-block;
+	-moz-display:inline-block;
+	-o-display:inline-block;
+	display:inline-block;}
+
+img.largepic{-webkit-width:40%;
+	-moz-width:40%;
+	-o-width:40%;
+	width:40%;
+	-webkit-transition-property: width;
+	-webkit-transition-duration: .5s;
+	-webkit-transition-timing-function: linear;
+	-moz-transition-property: width;
+	-moz-transition-duration: .5s;
+	-moz-transition-timing-function: linear;
+	-o-transition-property: width;
+	-o-transition-duration: .5s;
+	-o-transition-timing-function: linear;
+	transition-property: width;
+	transition-duration: .5s;
+	transition-timing-function: linear;}
+
+img.smallpic{-webkit-width:30%;
+	-moz-width:30%;
+	-o-width:30%;
+	width:30%;}
+a:hover,a:focus{-webkit-color:#32a86f;
+	-moz-color:#32a86f;
+	-o-color:#32a86f;
+	color:#32a86f;}
+
+a:visited{-webkit-color:#8dc2c0;
+	-moz-color:#8dc2c0;
+	-o-color:#8dc2c0;
+	color:#8dc2c0;}
+
+img:hover,img:focus{-webkit-width:1300px;
+	-moz-width:70%;
+	-o-width:1300px;
+	width:90%;}
+	
+
+@media only screen and (max-device-width: 1290px) {
+      .show-mobile {
+        display: block;
+      }
+      .hide-mobile {
+        display: none;
+      }
+    	nav{-webkit-text-align: center;
+	-moz-text-align: center;
+	-o-text-align: center;
+	text-align: left;
+
+	-webkit-position:fixed;
+	-moz-position:fixed;
+	-o-position:fixed;
+	position:fixed;
+
+	-webkit-top:0;
+	-moz-top:0;
+	-o-top:0;
+	top:0;
+
+	-webkit-width: 100%;
+	-moz-width: 100%
+	-o-width: 100%;
+	width: 100%;
+
+	-webkit-height: 30%;
+	-moz-height: 30%;
+	-o-height: 50%;
+	height: 20%;
+
+	-webkit-background-color:#444;
+	-moz-background-color:#444;
+	-o-background-color:#444;
+	background-color:#444;
+
+	-webkit-z-index: 1;
+	-moz-z-index: 1;
+	-o-z-index: 1;
+	z-index: 1;
+	
+ 
+
+    }
+
+ @media only screen and (min-device-width: 1291px) {
+      .show-mobile {
+        display: none;
+      }
+      .hide-mobile {
+        display: block;
+      }
+    }
