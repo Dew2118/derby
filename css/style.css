@@ -146,8 +146,6 @@ img:hover,img:focus{-webkit-width:90%;
 	-o-width:90%;
 	width:90%;}
 	
-
-@media only screen and (max-device-width: 1300px) {
       .show-mobile {
         display: block;
       }
