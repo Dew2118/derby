@@ -146,9 +146,25 @@ img:hover,img:focus{-webkit-width:90%;
 	-o-width:90%;
 	width:90%;}
 	
+      nav.show-mobile {
+        display: block;
+      }
+      nav.hide-mobile {
+        display: none;
+      }
+
+    
+	
+ 
+
+    }
+
+ @media only screen and (min-device-width: 1301px) {
       .show-mobile {
         display: block;
       }
       .hide-mobile {
         display: none;
       }
+    }
+
