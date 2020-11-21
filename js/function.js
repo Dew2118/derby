@@ -14,4 +14,3 @@ function no() {
 function yes() {
 	console.log("yes");}
 
-
