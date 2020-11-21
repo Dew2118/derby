@@ -160,10 +160,10 @@ img:hover,img:focus{-webkit-width:90%;
     }
 
  @media only screen and (min-device-width: 1301px) {
-      .show-mobile {
+      nav.show-mobile {
         display: block;
       }
-      .hide-mobile {
+      nav.hide-mobile {
         display: none;
       }
     }
