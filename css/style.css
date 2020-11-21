@@ -68,7 +68,7 @@ div.PS{-webkit-font-size:40%;
 	-webkit-text-align:center;
 	-moz-text-align:center;
 	-o-text-align:center;
-	text-align:center;}
+	text-align:left;}
 
 div{-webkit-text-align:center;
 	-moz-text-align:center;
@@ -147,3 +147,57 @@ img:hover,img:focus{-webkit-width:1300px;
 	width:90%;}
 	
 
+@media only screen and (max-device-width: 480px) {
+      .show-mobile {
+        display: block;
+      }
+      .hide-mobile {
+        display: none;
+      }
+    	nav{-webkit-text-align: center;
+	-moz-text-align: center;
+	-o-text-align: center;
+	text-align: left;
+
+	-webkit-position:fixed;
+	-moz-position:fixed;
+	-o-position:fixed;
+	position:fixed;
+
+	-webkit-top:0;
+	-moz-top:0;
+	-o-top:0;
+	top:0;
+
+	-webkit-width: 100%;
+	-moz-width: 100%
+	-o-width: 100%;
+	width: 100%;
+
+	-webkit-height: 30%;
+	-moz-height: 30%;
+	-o-height: 50%;
+	height: 20%;
+
+	-webkit-background-color:#444;
+	-moz-background-color:#444;
+	-o-background-color:#444;
+	background-color:#444;
+
+	-webkit-z-index: 1;
+	-moz-z-index: 1;
+	-o-z-index: 1;
+	z-index: 1;
+	
+ 
+
+    }
+
+ @media only screen and (min-device-width: 481px) {
+      .show-mobile {
+        display: none;
+      }
+      .hide-mobile {
+        display: block;
+      }
+    }
