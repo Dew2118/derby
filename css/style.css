@@ -141,9 +141,9 @@ a:visited{-webkit-color:#8dc2c0;
 	-o-color:#8dc2c0;
 	color:#8dc2c0;}
 
-img:hover,img:focus{-webkit-width:1300px;
-	-moz-width:70%;
-	-o-width:1300px;
+img:hover,img:focus{-webkit-width:90%;
+	-moz-width:90%;
+	-o-width:90%;
 	width:90%;}
 	
 
@@ -152,7 +152,7 @@ img:hover,img:focus{-webkit-width:1300px;
         display: block;
       }
       .hide-mobile {
-        visibility: none;
+        display: none;
       }
     	nav{-webkit-text-align: center;
 	-moz-text-align: center;
@@ -174,9 +174,9 @@ img:hover,img:focus{-webkit-width:1300px;
 	-o-width: 100%;
 	width: 100%;
 
-	-webkit-height: 30%;
-	-moz-height: 30%;
-	-o-height: 50%;
+	-webkit-height: 20%;
+	-moz-height: 20%;
+	-o-height: 20%;
 	height: 20%;
 
 	-webkit-background-color:#444;
@@ -195,9 +195,9 @@ img:hover,img:focus{-webkit-width:1300px;
 
  @media only screen and (min-device-width: 1301px) {
       .show-mobile {
-        display: none;
+        display: block;
       }
       .hide-mobile {
-        display: block;
+        display: none;
       }
     }
