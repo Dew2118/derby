@@ -11,7 +11,16 @@
 	</head id="top">
 	<body>
 		<header>
-			<nav>
+			<nav class="show-mobile">
+				<a href="#top">Top</a>
+				<a href="#Kingsbury-Area">Kingsbury</a>
+				<a href="#Moira-West">Moira W</a>
+				<a href="#Clay-Mills">Clay Mills</a>
+				<a href="#North-Staffordshire-Junction-and-Stenson-Junction">NS and S Jn</a>
+				<a href="#Derby">Derby</a>
+				<a href="#The-North-Panel">The N Panel</a>
+			</nav>
+			<nav class="hide-mobile">
 				<a href="#top">The top</a>
 				<a href="#Kingsbury-Area">Kingsbury Area</a>
 				<a href="#Moira-West">Moira West</a>
@@ -133,5 +142,18 @@
 		<p>
 			The train from Clay Cross take longer than you would think to move up to Derby. These loops are very long. Some trains are sheduled to Matlock. That train would tell you to release the token, you release it and signal that train to Matlock. They would call you to request to leave, I don't know why you would say no. Then the train will pop up at Ambergate and you just signal them down toward Derby again.
 		</p>
+		<footer>
+			<form>
+				<label for="Feedback" >Feedback:</label>
+				<input type="text" id="d1" onkeyup="myFunction()" name="Feedback" placeholder="this website sucks.(Yes, I'm totally serious)"
+				 ><br>
+				<label for="Helpful">Is this page helpful?</label>
+				<input type="radio" id="HelpfulY" onclick="yes()" name="Helpful">
+				<label for="Helpful">Yes</label>
+				<input type="radio" id="HelpfulN" onclick ="no()" name="Helpful" >
+				<label for="Helpful">No</label>
+				<input type="submit" value="submit">
+			</form>
+		</footer>
 	</body>
 </html>
