@@ -117,7 +117,7 @@ img:hover,img:focus{-webkit-width:1300px;
         display: block;
       }
       .hide-mobile {
-        visibility: none;
+        display: none;
       }
     	nav{-webkit-text-align: center;
 	-moz-text-align: center;
