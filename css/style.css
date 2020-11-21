@@ -8,42 +8,7 @@ p,ol,nav,footer{-webkit-font-size:20px;
 	-o-text-align:justify;
 	text-align:justify;}
 
-nav{-webkit-text-align: center;
-	-moz-text-align: center;
-	-o-text-align: center;
-	text-align: center;
 
-	-webkit-position:fixed;
-	-moz-position:fixed;
-	-o-position:fixed;
-	position:fixed;
-
-	-webkit-top:0;
-	-moz-top:0;
-	-o-top:0;
-	top:0;
-
-	-webkit-width: 100%;
-	-moz-width: 100%
-	-o-width: 100%;
-	width: 100%;
-
-	-webkit-height: 5%;
-	-moz-height: 5%;
-	-o-height: 5%;
-	height: 5%;
-
-	-webkit-background-color:#444;
-	-moz-background-color:#444;
-	-o-background-color:#444;
-	background-color:#444;
-
-	-webkit-z-index: 1;
-	-moz-z-index: 1;
-	-o-z-index: 1;
-	z-index: 1;
-	
- }
 
 nav a{-webkit-border-right: 3px solid yellow;
 	-moz-border-right: 3px solid yellow;
@@ -141,30 +106,97 @@ a:visited{-webkit-color:#8dc2c0;
 	-o-color:#8dc2c0;
 	color:#8dc2c0;}
 
-img:hover,img:focus{-webkit-width:90%;
-	-moz-width:90%;
-	-o-width:90%;
+img:hover,img:focus{-webkit-width:1300px;
+	-moz-width:70%;
+	-o-width:1300px;
 	width:90%;}
 	
-      nav.show-mobile {
+
+
+      .show-mobile {
         display: block;
       }
-      nav.hide-mobile {
-        display: none;
+      .hide-mobile {
+        visibility: none;
       }
+    	nav{-webkit-text-align: center;
+	-moz-text-align: center;
+	-o-text-align: center;
+	text-align: left;
 
-    
+	-webkit-position:fixed;
+	-moz-position:fixed;
+	-o-position:fixed;
+	position:fixed;
+
+	-webkit-top:0;
+	-moz-top:0;
+	-o-top:0;
+	top:0;
+
+	-webkit-width: 100%;
+	-moz-width: 100%
+	-o-width: 100%;
+	width: 100%;
+
+	-webkit-height: 30%;
+	-moz-height: 30%;
+	-o-height: 50%;
+	height: 30%;
+
+	-webkit-background-color:#444;
+	-moz-background-color:#444;
+	-o-background-color:#444;
+	background-color:#444;
+
+	-webkit-z-index: 1;
+	-moz-z-index: 1;
+	-o-z-index: 1;
+	z-index: 1;
 	
  
 
     }
 
- @media only screen and (min-device-width: 1301px) {
-      nav.show-mobile {
-        display: block;
-      }
-      nav.hide-mobile {
+ @media only screen and (min-device-width: 1291px) {
+      .show-mobile {
         display: none;
       }
-    }
+      .hide-mobile {
+        display: block;
+      }
+    nav{-webkit-text-align: center;
+	-moz-text-align: center;
+	-o-text-align: center;
+	text-align: center;
 
+	-webkit-position:fixed;
+	-moz-position:fixed;
+	-o-position:fixed;
+	position:fixed;
+
+	-webkit-top:0;
+	-moz-top:0;
+	-o-top:0;
+	top:0;
+
+	-webkit-width: 100%;
+	-moz-width: 100%
+	-o-width: 100%;
+	width: 100%;
+
+	-webkit-height: 5%;
+	-moz-height: 5%;
+	-o-height: 5%;
+	height: 5%;
+
+	-webkit-background-color:#444;
+	-moz-background-color:#444;
+	-o-background-color:#444;
+	background-color:#444;
+
+	-webkit-z-index: 1;
+	-moz-z-index: 1;
+	-o-z-index: 1;
+	z-index: 1;
+    }
