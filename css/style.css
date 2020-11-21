@@ -147,7 +147,7 @@ img:hover,img:focus{-webkit-width:1300px;
 	width:90%;}
 	
 
-@media only screen and (max-device-width: 1290px) {
+@media screen and (max-device-width: 1300px) {
       .show-mobile {
         display: block;
       }
@@ -193,7 +193,7 @@ img:hover,img:focus{-webkit-width:1300px;
 
     }
 
- @media only screen and (min-device-width: 1290px) {
+ @media screen and (min-device-width: 1301px) {
       .show-mobile {
         display: none;
       }
