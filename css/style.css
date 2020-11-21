@@ -139,10 +139,10 @@ img:hover,img:focus{-webkit-width:1300px;
 	-o-width: 100%;
 	width: 100%;
 
-	-webkit-height: 30%;
-	-moz-height: 30%;
-	-o-height: 50%;
-	height: 20%;
+	-webkit-height: 10%;
+	-moz-height: 10%;
+	-o-height: 10%;
+	height: 10%;
 
 	-webkit-background-color:#444;
 	-moz-background-color:#444;
